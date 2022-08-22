@@ -1,0 +1,32 @@
+{
+  "version":5,
+  "configurePresets": [
+    {      
+      "name":"Debug",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "generator": "Visual Studio 16 2019",
+      "warnings": {
+        "unusedCli": false
+      },
+      "toolchainFile": "D:/git/vcpkg/scripts/buildsystems/vcpkg.cmake",
+      "architecture": {
+        "value": "x64",
+        "strategy": "set"
+      },
+      "toolset": {
+        "value": "host=x64",
+        "strategy": "set"
+      }, 
+  
+      "cacheVariables": {        
+      "CMAKE_BUILD_TYPE":"Debug",
+        "CMAKE_EXPORT_COMPILE_COMMANDS":
+        {
+          "value":"TRUE",
+          "type":"BOOL"
+        },        
+        "VCPKG_TARGET_TRIPLET": "x64-windows-static"
+      }     
+    }
+  ]
+}
