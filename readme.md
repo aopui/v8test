@@ -1,8 +1,8 @@
-## CMAKE 笔记
+## CMAKE 绗旇
 ---
-### 配置基本环境
+### 閰嶇疆鍩烘湰鐜
 
-### 生成一个可执行程序
+### 鐢熸垚涓�涓彲鎵ц绋嬪簭
 
 * src
     * samels
@@ -14,7 +14,7 @@
 cmake_minimum_required(VERSION 3.22.0)
 
 ```
-###设置build target  然后按F7 生成exe
+###璁剧疆build target  鐒跺悗鎸塅7 鐢熸垚exe
 
 1.ctrl+shift+p
 
@@ -23,12 +23,12 @@ cmake_minimum_required(VERSION 3.22.0)
 2.
 ![](img/2022-08-10-13-17-42.png)
 
-设置成功后会显示一个小锤子
+璁剧疆鎴愬姛鍚庝細鏄剧ず涓�涓皬閿ゅ瓙
 
 ![](img/2022-08-10-11-47-32.png)
 
 
-### 设置 debug target  然后按ctrl+F5调试
+### 璁剧疆 debug target  鐒跺悗鎸塩trl+F5璋冭瘯
 
 
 ![](img/2022-08-10-13-28-47.png)
